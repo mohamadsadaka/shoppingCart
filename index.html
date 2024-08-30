@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+   
+</head>
+<body>
+
+    <header>
+         <div class="container">
+
+             <div class="header-content">
+                <a href="index.html" class="brand">Shopping Cart</a>
+
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sing in</a></li>
+                        <li><a href="register.html">Sign up</a></li>
+                    </ul>
+                    <ul id="user_info">
+                      <li><a href="#" id="user"></a></li>
+                      <li class="Shopping_cart">
+                          <i class="fas fa-shopping-cart " id="cartIcon"></i>
+                        <span class="badge "></span>
+                         
+                      </li>
+                      <li><a href="#" id="logout">Log Out</a></li>
+                    </ul>
+                  </nav>
+              </div>
+                   
+             
+    </header>  
+    <div class="carts_prodects">
+        
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <div class="cart-box">
+                <img src="Images/zen-pirla.webp" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-prodect-title">Solitaire Daimond Ring</div>
+                    <div class="cart-price">200$</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fas fa-trash-alt  cart-remove" ></i>
+            </div>
+        </div>
+        <div class="total">
+            <div class="total-title">total</div>
+            <div class="total-price">0$</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+        <i class="fas fa-times" id="cart-close"></i>  
+        </div>
+    <section class="home">
+        <div class="container">
+            <div class="search"> 
+             <i class="fas fa-search"></i>
+                
+                 <input type="search" placeholder="search prodect" id="search"></div>
+          <div class="prodect">
+          
+              <div class="prodect_item">
+  <img class="prodect-item_img" src="Images/zen-pirla.webp" alt="">
+  <div class="prodect_item_desc">
+      <h2 class="title-prodect">Solitaire Daimond Ring</h2>
+      <p> An elegant ring with intertwind ,a centeal diamond,<br>and "ZEN"
+          engraved inside, symbolizing eternal love and balance
+      </p>
+      <p class="pirse-prodect">pirse = 300$</p>
+  </div>
+  <div class="prodect_item_actoin">
+      <button class="add_to_cart">Add To Cart </button>
+      
+  </div>
+              </div><!-- prodect-item -->
+            
+          </div><!-- prodect -->
+        </div><!-- container -->
+    
+    <section class="home">
+      <div class="container">
+        <div class="prodect">
+
+          
+        </div><!-- prodect -->
+      </div><!-- container -->
+    </section>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/register.js"></script>
+<script src="js/user.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
